@@ -1,0 +1,70 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1d;
+}
+
+.main-container {
+  padding: 15vh;
+  margin-top: 1vh;
+}
+
+.proj-title {
+  text-align: center;
+  font-family: "Lucida Sans Unicode";
+  color: white;
+  margin-bottom: 5vh;
+}
+.proj-title h1 {
+  font-size: 30px;
+  color: rgba(188, 1, 57, 1);
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.footer {
+  background: rgb(91, 5, 23);
+  background: linear-gradient(
+    56deg,
+    rgba(91, 5, 23, 1) 0%,
+    rgba(82, 33, 42, 1) 52%,
+    rgba(91, 5, 23, 1) 100%
+  );
+  color: white;
+  padding: 15px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer p {
+  color: rgb(255, 254, 255);
+  font-family: "Lucida Sans Unicode";
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  color: rgba(24, 24, 31, 1);
+  text-decoration: none;
+  font-size: 30px;
+}
+.social-links a:hover {
+  color: rgba(188, 1, 57, 1);
+}
+
+@media (max-width: 600px) {
+  .social-links {
+    margin-top: 20px;
+  }
+
+  .social-links a {
+    font-size: 16px;
+  }
+}
